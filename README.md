@@ -1,6 +1,7 @@
 # My-motorcycle webapp
 
 This project was built to learn about managing multiple slices with [React Redux Toolkit](https://redux.js.org/)
+Review this [project](https://mymoto.netlify.app/)
 
 ## Available Scripts
 
