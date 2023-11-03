@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# My-motorcycle webapp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was built to learn about managing multiple slices with [React Redux Toolkit](https://redux.js.org/)
 
 ## Available Scripts
 
