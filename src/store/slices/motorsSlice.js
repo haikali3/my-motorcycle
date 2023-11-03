@@ -4,28 +4,29 @@ const motorsSlice = createSlice({
   name: 'motors',
   initialState: {
     searchTerm: '',
-    motors: [],
+    data: [],
   },
   reducers: {
     changeSearchTerm: (state, action) => {
       state.searchTerm = action.payload;
     },
     addMotor: (state, action) => {
-      state.motors.push({
+      //Assumption
+      // action.payload = { name: 'Model S', cost: 80000 }
+      state.data.push({
         name: action.payload.name,
         cost: action.payload.cost,
         id: nanoid(),
       });
     },
     removeMotor: (state, action) => {
-      const updated = state.motor.filter((motor) => {
+      const updated = state.data.filter((motor) => {
         return motor.id !== action.payload;
       });
-      state.motors = updated;
+      state.data = updated;
     },
   },
 });
 
 export const { changeSearchTerm, addMotor, removeMotor } = motorsSlice.actions;
-
 export const motorsReducer = motorsSlice.reducer;

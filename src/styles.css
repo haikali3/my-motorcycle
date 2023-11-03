@@ -1,0 +1,79 @@
+.motor-form {
+  margin-top: 15px;
+  padding: 15px;
+}
+.motor-form .field-group {
+  display: flex;
+  margin-bottom: 0px;
+}
+.motor-form form {
+  display: flex;
+  justify-content: space-between;
+}
+.motor-form .field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  margin-right: 10px;
+}
+.motor-form .field label.label {
+  margin-bottom: 0px;
+  width: 70px;
+}
+.motor-form input {
+  width: 100%;
+}
+.motor-form h4.subtitle.is-3 {
+  margin-bottom: 0.75rem;
+}
+
+.motor-list .panel.bold {
+  font-weight: 600;
+}
+
+.motor-list .panel {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.motor-list p {
+  font-size: 1.5rem;
+}
+
+.motor-list .note {
+  font-style: italic;
+  display: block;
+  margin: 40px 20px;
+}
+
+.motor-value {
+  font-size: 2rem;
+  text-align: right;
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+.list-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-header h3.title {
+  margin-bottom: 0px;
+}
+
+.list-header .search {
+  display: flex;
+  align-items: center;
+}
+.list-header .search .label {
+  margin-bottom: 0px;
+  margin-right: 10px;
+}
